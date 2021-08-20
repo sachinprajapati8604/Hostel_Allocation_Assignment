@@ -1,0 +1,60 @@
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 80px;
+  text-align: center;
+}
+.col {
+  font-size: 2rem;
+  height: 300px;
+  width: 400px;
+  
+}
+.male-img{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-image: url(http://assets.stickpng.com/thumbs/585e4bcdcb11b227491c3396.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.female-img{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-image: url(http://assets.stickpng.com/thumbs/585e4bc4cb11b227491c3395.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.girl {
+  background-color: lightcoral;
+}
+.boy {
+  background-color: lightblue;
+}
+
+.hostel-box{
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.myrow {
+  /* display: flex; */
+  padding: 20px;
+  line-height: 40px;
+  flex-wrap: wrap;
+}
+.myrow .col{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  height: 50px;
+  width: 20%;
+  background-color: #6a6a6a;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+}
